@@ -32,9 +32,10 @@ st.text(s)
 # Gráficas
 
 ## Univariadas
+fig, ax = plt.subplots(1, 1)
 
-features['fare'].hist(bins=30)
-
+data['fare'].hist(bins=30, ax=ax)
+st.pyplot(fig)
 ## Bivariadas
 fig, ax = plt.subplots(1, 1)
 
