@@ -38,13 +38,13 @@ features['fare'].hist(bins=30)
 ## Bivariadas
 fig, ax = plt.subplots(1, 1)
 
-sns.boxplot(data=features, x='pclass', y='age', hue='survived', ax=ax)
+sns.boxplot(data=data, x='pclass', y='age', hue='survived', ax=ax)
 
 st.pyplot(fig)
 
 fig, ax = plt.subplots(1, 1)
 
-sns.boxplot(data=features, x='sex_male', y='age', hue='survived', ax=ax)
+sns.boxplot(data=data, x='sex_male', y='age', hue='survived', ax=ax)
 
 st.pyplot(fig)
 # Modelo
