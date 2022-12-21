@@ -24,7 +24,7 @@ st.dataframe(data.describe())
 ## Info
 
 buffer = io.StringIO()
-df.info(buf=buffer)
+data.info(buf=buffer)
 s = buffer.getvalue()
 
 st.text(s)
