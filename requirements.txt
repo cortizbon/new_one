@@ -1,0 +1,7 @@
+sklearn
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+streamlit-shap
