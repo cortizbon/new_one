@@ -5,7 +5,6 @@ import sklearn
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
-import io
 
 # Título
 data = pd.read_csv('data.csv')
