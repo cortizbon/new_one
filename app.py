@@ -1,5 +1,4 @@
 import streamlit as st
-import streamlit_shap as stshap
 import pandas as pd
 import pickle
 import sklearn
